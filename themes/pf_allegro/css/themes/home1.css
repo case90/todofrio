@@ -1,0 +1,59 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* flex */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+#index .grid .categories_info_container .categories_info_content {
+  top: 80%;
+}
+
+#index .header1 .ps-service {
+  margin-bottom: 0;
+}
+#index .header1 .ps-service .service-inner {
+  border-bottom: 0;
+}
+
+.widget-manufacture.block {
+  margin-bottom: 0;
+}
+
+.img_full_width img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  #index .header4 {
+    max-width: 1290px;
+    margin: 0 auto;
+  }
+}

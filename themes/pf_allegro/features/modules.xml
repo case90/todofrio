@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<modules>
+	<module>
+		<label>Theme Control Panel</label>
+		<name>ptsthemepanel</name>
+		<prefix>PTS_CP_</prefix>
+		<queries>1</queries>	
+		<table>
+			<table>ptsthemepanel</table>
+		</table>
+	</module>	
+	<module>
+		<label>Ps Megamenu</label>
+		<name>psmegamenu</name>
+		<prefix>PS_MEGAMENU_</prefix>
+ 		<queries>1</queries>
+ 		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>banner-menu.jpg</image>
+ 		</images>	
+ 		<tables>
+ 			<table>psmegamenu</table>
+ 			<table>psmegamenu_lang</table>	
+ 			<table>psmegamenu_shop</table>
+ 			<table>psmegamenu_widgets</table>
+ 		</tables>
+	</module>
+	<module>
+		<label>Pts Related Products Block</label>
+		<name>ptsblockrelatedproducts</name>
+		<prefix>pts_relate_pro_</prefix>
+		<queries>0</queries>	
+	</module>
+
+	<module>
+		<label>Categories block</label>
+		<name>blockcategories</name>
+		<prefix>BLOCK_CATEG_</prefix>
+		<queries>0</queries>
+	</module>
+	<module>
+		<label>CMS block</label>
+		<name>blockcms</name>
+		<prefix>FOOTER_</prefix>
+		<queries>0</queries>
+	</module>
+	
+	<module>
+		<label>Ps Slider Layer for your homepage</label>
+		<name>pssliderlayer</name>
+		<prefix>PSSLIDERLAYER_</prefix>
+		<queries>1</queries>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>font.png</image>
+ 			<image>font1.png</image>
+ 			<image>slider-60.jpg</image>
+ 			<image>slider-61.jpg</image> 			
+ 			<image>slider-62.jpg</image>
+ 			<image>slider-63.jpg</image>
+ 			<image>slider-64.jpg</image>
+ 			<image>slider-65.jpg</image>
+ 			<image>slider-66.jpg</image>
+ 			<image>slider-67.jpg</image>
+ 		</images>
+		<tables>
+			<table>pssliderlayer_groups</table>
+			<table>pssliderlayer_slides</table>
+			<table>pssliderlayer_slides_lang</table>
+		</tables>
+	</module>
+
+	<module>
+		<label>Leo Blog Management</label>
+		<name>leoblog</name>
+		<prefix>LEOBLOG_</prefix>
+		<queries>1</queries>
+		<tables>
+			<table>leoblogcat</table>
+			<table>leoblogcat_lang</table>
+			<table>leoblogcat_shop</table>
+			<table>leoblog_comment</table>
+			<table>leoblog_blog</table>
+			<table>leoblog_blog_lang</table>
+			<table>leoblog_blog_shop</table>
+		</tables>
+		<imgfolder>views/img/b</imgfolder>
+			<images>
+	 			<image>b-blog-1.jpg</image>
+	 			<image>b-blog-2.jpg</image>
+	 			<image>b-blog-3.jpg</image>
+	 			<image>b-blog-4.jpg</image>
+	 			<image>b-blog-5.jpg</image>
+	 			<image>b-blog-6.jpg</image>
+	 			<image>b-blog-7.jpg</image>
+	 		</images>
+	</module>
+	<module>
+		<label>Pts Static Content Manager</label>
+		<name>ptsstaticcontent</name>
+		<prefix>pts_test_</prefix>
+		<queries>1</queries>
+ 		<tables>
+ 			<table>ptsstaticcontent</table>
+ 		</tables>
+		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>icon-header1.png</image>
+ 			<image>icon-header2.png</image>
+ 			<image>icon-header3.png</image>
+ 		</images>
+	</module>
+	<module>
+		<label>Ps Vertical Megamenu</label>
+		<name>psverticalmenu</name>
+		<prefix>PTS_VERTICAL_MEGAMENU_</prefix>
+		<queries>1</queries>
+		<tables>
+ 			<table>psverticalmenu</table>
+ 			<table>psverticalmenu_lang</table>
+ 			<table>psverticalmenu_shop</table>
+ 			<table>psverticalmenu_widgets</table>
+ 		</tables>
+	</module>
+	
+	<module>
+		<label>Pts Map Locator</label>
+		<name>ptsmaplocator</name>
+		<prefix>PTSMAPL_</prefix>
+		<queries>0</queries>
+	</module>
+
+	<module>
+		<label>Pts Bootstrap Testimonials</label>
+		<name>ptsbttestimonials</name>
+		<prefix>pts_test</prefix>
+		<queries>1</queries>		
+		<tables>
+ 			<table>ptsbttestimonials</table>
+ 			<table>ptsbttestimonials_lang</table>
+ 			<table>ptsbttestimonials_shop</table>
+ 		</tables>
+	</module>
+
+	<module>
+		<label>Ps Page Builder</label>
+		<name>pspagebuilder</name>
+		<prefix>pspagebuilder</prefix>
+		<queries>1</queries>
+		<tables>
+ 			<table>pagebuilderprofile</table>
+ 			<table>pagebuilderprofile_shop</table>
+ 		</tables>
+ 		<imgfolder>views/img</imgfolder>
+		<images>
+ 			<image>banner.jpg</image>
+ 			<image>banner1.jpg</image>
+ 			<image>banner2.jpg</image>
+ 			<image>banner3.jpg</image>
+ 			<image>banner4.jpg</image>
+ 			<image>banner5.jpg</image>
+ 			<image>banner6.jpg</image>
+ 			<image>banner7.jpg</image>
+ 			<image>banner8.jpg</image>
+ 			<image>banner8.jpg</image>
+ 			<image>banner9.jpg</image>
+ 			<image>banner10.jpg</image>
+ 			<image>banner11.jpg</image>
+ 			<image>banner12.jpg</image>
+ 			<image>banner13.jpg</image>
+ 			<image>banner14.jpg</image>
+ 			<image>banner15.jpg</image>
+ 			<image>banner16.jpg</image>
+ 			<image>banner17.jpg</image>
+ 			<image>banner18.jpg</image>
+ 			<image>banner19.jpg</image>
+ 			<image>bg_content.png</image>
+ 			<image>bg-category.jpg</image>
+ 			<image>bg-category-home1.jpg</image>
+ 			<image>bg-category-home2.jpg</image>
+ 			<image>bg-testimonial.jpg</image>
+ 			<image>sub-category.jpg</image>
+ 			<image>sub-category-1.jpg</image>
+ 			<image>service-1.png</image>
+ 			<image>service-2.png</image>
+ 			<image>service-3.png</image>
+ 			<image>paypal.png</image>
+ 			<image>logo-footer.png</image>
+ 			<image>logo-footer-home1.png</image>
+ 			<image>logo-footer-home3.png</image>
+ 		</images>	
+	</module>
+</modules>

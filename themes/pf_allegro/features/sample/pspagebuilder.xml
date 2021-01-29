@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+</config>
+<tables>
+<table>pagebuilderprofile</table>
+<table>pagebuilderprofile_shop</table>
+</tables>
+
+<queries></queries>
+
+</module>

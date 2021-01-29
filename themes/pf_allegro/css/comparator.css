@@ -1,0 +1,327 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* flex */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+/********************************************************************
+					Compare Page Styles
+********************************************************************/
+/* line 7, ../sass/comparator.scss */
+table#product_comparison {
+  background-color: #fff;
+}
+/* line 11, ../sass/comparator.scss */
+table#product_comparison tbody tr td.product-block {
+  vertical-align: top;
+  padding: 14px 19px 19px;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 17, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty,
+table#product_comparison tbody tr td.feature-name, table#product_comparison tbody tr.comparison_header {
+  background: #fbfbfb;
+  color: #555555;
+}
+/* line 23, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos {
+  text-align: center;
+}
+/* line 25, ../sass/comparator.scss */
+table#product_comparison tbody tr td.comparison_infos div.center {
+  margin: 0 auto;
+  width: 80px;
+}
+/* line 30, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty {
+  vertical-align: bottom;
+}
+/* line 32, ../sass/comparator.scss */
+table#product_comparison tbody tr td.td_empty > span {
+  font: 600 18px/22px "Heebo", serif;
+  text-transform: uppercase;
+  color: #555454;
+}
+/* line 40, ../sass/comparator.scss */
+table#product_comparison .remove {
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+/* line 43, ../sass/comparator.scss */
+table#product_comparison .remove a {
+  font-size: 23px;
+  line-height: 23px;
+  color: #c0c0c0;
+}
+/* line 47, ../sass/comparator.scss */
+table#product_comparison .remove a:hover {
+  color: #ff7600;
+}
+/* line 52, ../sass/comparator.scss */
+table#product_comparison .product-image-block {
+  display: inline-block;
+  position: relative;
+}
+/* line 55, ../sass/comparator.scss */
+table#product_comparison .product-image-block .product_image {
+  padding: 9px;
+  border: 1px solid #e1e1e1;
+  display: inline-block;
+  margin: 0 0 8px 0;
+}
+/* line 60, ../sass/comparator.scss */
+table#product_comparison .product-image-block .product_image img {
+  width: 100%;
+}
+/* line 67, ../sass/comparator.scss */
+table#product_comparison .product-block:hover .prices-container .price {
+  filter: alpha(opacity=100);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+/* line 72, ../sass/comparator.scss */
+table#product_comparison .comparison_availability_statut {
+  display: none;
+  font-weight: 700;
+  color: #060;
+}
+/* line 77, ../sass/comparator.scss */
+table#product_comparison .product_discount {
+  padding-top: 5px;
+}
+/* line 79, ../sass/comparator.scss */
+table#product_comparison .product_discount .reduced-price {
+  color: #666666;
+  font-weight: 700;
+}
+/* line 84, ../sass/comparator.scss */
+table#product_comparison .product_desc {
+  padding: 0 0 12px 0;
+}
+/* line 88, ../sass/comparator.scss */
+table#product_comparison .button-container a, table#product_comparison .button-container > span {
+  margin-bottom: 10px;
+}
+/* line 92, ../sass/comparator.scss */
+table#product_comparison .comparison_unit_price {
+  font-size: 17px;
+  font-family: "Heebo", serif;
+  color: #ff6700;
+  font-style: italic;
+}
+/* line 98, ../sass/comparator.scss */
+table#product_comparison .product-rating {
+  display: inline-block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 105, ../sass/comparator.scss */
+table#product_comparison .comparison_feature .product_name {
+  display: none;
+}
+
+/* line 112, ../sass/comparator.scss */
+.footer_link {
+  margin: 20px 0 20px 0;
+}
+
+/* line 116, ../sass/comparator.scss */
+#stOCClose {
+  width: 29px !important;
+  height: 29px !important;
+}
+
+/* line 120, ../sass/comparator.scss */
+.stButton .stFb,
+.stButton .stTwbutton,
+.stButton .stMainServices,
+.stButton .stButton_gradient {
+  height: 22px !important;
+}
+
+/* line 128, ../sass/comparator.scss */
+.share strong {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 133, ../sass/comparator.scss */
+.share > div {
+  margin-bottom: 8px;
+}
+@media (min-width: 1200px) {
+  /* line 127, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -350px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 127, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -260px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 127, ../sass/comparator.scss */
+  .share {
+    position: relative;
+    top: -245px;
+  }
+}
+
+/* line 150, ../sass/comparator.scss */
+.stArrow {
+  display: none !important;
+}
+
+/***** IE code ****/
+/* line 156, ../sass/comparator.scss */
+.ie8 table#product_comparison .product-image-block .product_image img {
+  width: auto;
+}
+
+/**** responsive code ******/
+@media (max-width: 992px) {
+  /* line 164, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.td_empty span {
+    font-size: 14px;
+  }
+  /* line 167, ../sass/comparator.scss */
+  #columns table#product_comparison tbody tr td.product-block {
+    padding: 14px;
+  }
+  /* line 170, ../sass/comparator.scss */
+  #columns table#product_comparison .button.ajax_add_to_cart_button,
+  #columns table#product_comparison .button.lnk_view {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 178, ../sass/comparator.scss */
+  #product_comparison table,
+  #product_comparison thead,
+  #product_comparison tbody,
+  #product_comparison th,
+  #product_comparison td,
+  #product_comparison tr {
+    display: block;
+  }
+
+  /* line 187, ../sass/comparator.scss */
+  #product_comparison thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  /* line 114, ../sass/mixins/_app.scss */
+  .rtl #product_comparison thead tr {
+    right: -9999px;
+    left: auto;
+  }
+
+  /* line 193, ../sass/comparator.scss */
+  #product_comparison tr {
+    overflow: hidden;
+  }
+  /* line 195, ../sass/comparator.scss */
+  #product_comparison tr:last-child {
+    border-bottom: none;
+  }
+  /* line 197, ../sass/comparator.scss */
+  #product_comparison tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* line 203, ../sass/comparator.scss */
+  #product_comparison td {
+    border: none;
+    position: relative;
+    white-space: normal;
+    float: left;
+    width: 33.33%;
+  }
+  /* line 8, ../sass/mixins/_app.scss */
+  .rtl #product_comparison td {
+    float: right;
+  }
+  /* line 209, ../sass/comparator.scss */
+  #product_comparison td.td_empty {
+    width: 100% !important;
+    clear: both;
+  }
+  /* line 213, ../sass/comparator.scss */
+  #product_comparison td:last-child {
+    border-bottom: none;
+  }
+
+  /* line 220, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    float: none;
+    clear: both;
+  }
+}
+@media (max-width: 480px) {
+  /* line 230, ../sass/comparator.scss */
+  #product_comparison td {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 237, ../sass/comparator.scss */
+  #product_comparison .comparison_feature td {
+    float: left;
+    width: 50%;
+  }
+  /* line 8, ../sass/mixins/_app.scss */
+  .rtl #product_comparison .comparison_feature td {
+    float: right;
+  }
+  /* line 241, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .feature-name {
+    width: 100%;
+    clear: both;
+  }
+  /* line 245, ../sass/comparator.scss */
+  #product_comparison .comparison_feature .product-name {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+  /* line 8, ../sass/mixins/_app.scss */
+  .rtl #product_comparison .comparison_feature .product-name {
+    float: right;
+  }
+}

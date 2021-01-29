@@ -1,0 +1,177 @@
+// Mini basket and shopping cart
+// ========================================================================
+$cart-heading-color : 				#000!default;
+$cart-icon-bg:                      $theme-color !default;
+$cart-icon-color:                   $theme-color !default;
+$cart-icon-font-size:               $font-size-base !default;
+$cart-product-font-size:			13px !default;
+$cart-align-right:                  0px !default;
+$cart-content-width: 				400px !default;
+
+$quick-setting-border:              1px solid $border-color !default;
+$quick-setting-border-hover:        1px solid $theme-color !default;
+
+// Mini basket and shopping cart
+// ========================================================================
+
+//Minicart
+$minicart-module-bg:                $nocolor !default;
+$minicart-module-font:              600 14px $font-custom !default;
+$minicart-module-list-font-family:  $font-family !default;
+$minicart-module-list-font-size:    $font-size-base + 2!default;
+
+ 
+// Button
+// ========================================================================
+ 
+
+ // Search
+// ========================================================================
+$search-text-color: 			    #666 !default;
+$search-border:                     $white !default;
+$search-bg-color:                   $white !default;
+$search-icon-color:                 $theme-color !default;
+$search-padding:                    0 36px 0 10px !default;
+$search-icon-font-size:             14px !default;
+$search-font-size:                  $font-size-base !default;
+$search-font-style:                 italic !default;
+$search-min-width:                  250px !default;
+$search-height:                     36px !default;
+
+$search-button-border:              #fff !default;
+$search-button-bg:                  #fff !default;
+$search-button-color:               $black !default;
+
+// Newsletter
+// ========================================================================
+
+$newsletter-font-family:       $font-family!default;
+$newsletter-input-bg:          $nocolor!default;
+$newsletter-input-border:      rgba(255, 255, 255, 0.1)!default;
+$newsletter-input-lineheight:  34px!default;
+$newsletter-input-text-color:  #909cad!default;
+$newsletter-input-font-size:   $font-size-base!default;
+
+$newsletter-button-bg:         $theme-color!default;
+$newsletter-button-border:     transparent!default;
+$newsletter-button-text-color: $white!default;
+$newsletter-button-font-size:  $font-size-base + 2!default;
+$newsletter-button-padding:    0 14px!default;
+
+// Contact page
+// ========================================================================
+$contact-bg:                        $nocolor !default;
+$contact-padding:                   20px !default;
+$contact-border:                    0 !default;
+$contact-icon-color:                $white !default;
+$contact-icon-bg:                   lighten($gray, 30%) !default;
+$contact-icon-font-size:            $font-size-base + 5 !default;
+$contact-icon-hover-bg:             $theme-color !default;
+$contact-height:                    338px !default;
+
+
+
+// Htab module
+// ========================================================================
+$htab-border-width:					0px 1px 1px 1px !default;
+$htab-nav-padding: 					5px !default;
+$htab-nav-margin:                   0 !default;
+$htab-nav-color: 					#444 !default;
+$htab-bg: 							transparent !default;
+$htab-bg-selected: 					transparent !default;
+$htab-nav-selected-color: 			$htab-nav-color !default;
+$htab-nav-border-color: 			transparent !default;
+$htab-nav-border-width:             1px 1px 0px 1px !default;
+$htab-nav-border-style:             solid !default;
+$htab-nav-border-color-hover:       $border-color !default;
+$htab-nav-border-color-selected:    $border-color $border-color $htab-bg-selected $border-color !default;
+$htab-nav-content-padding:          20px !default;
+$htab-nav-font-size:                $font-size-base + 4 !default;
+$htab-font-family:                  $font-family!default;		
+
+
+// Mega Menu Module
+// ========================================================================
+$megamenu-outside-bg :	 			$nocolor!default;
+$megamenu-bg: 						#f0f0f0 !default;
+$megamenu-border-color:             1px solid $border-color !default;
+$megamenu-border-bottom-color:      $black !default;
+$megamenu-font-family:              $font-family !default;
+$megamenu-link-color: 				#000 !default;
+$megamenu-font-weight: 				700 !default;
+$megamenu-link-hover-color:         $theme-color !default;
+$megamenu-link-bg-hover-color:      $white !default;
+$megamenu-link-border-color:        transparent !default;
+$megamenu-color: 				    #363636 !default;
+$megamenu-caret:                    $megamenu-link-color !default;
+$megamenu-link-font-size:           16px  !default;
+
+$megamenu-parent-padding: 			16px 25px 17px 25px !default;
+$megamenu-parent-text-transform		: capitalize !default;
+
+
+$megamenu-sub-bg-color: 			#fff !default;
+$megamenu-sub-radius:               0px !default;
+$megamenu-sub-text-color:           #8a8a8a !default;
+$megamenu-sub-link-color: 			#666666 !default;
+$megamenu-sub-shadow:    			0px 1px 9px 0px rgba(0, 0, 0, 0.18) !default;
+$megamenu-sub-padding:              $grid-gutter-width/2 $grid-gutter-width !default;
+$megamenu-sub-min-width:  			250px !default;
+$megamenu-sub-border:               1px solid #ccc!default;
+$megamenu-sub-font-size:            $font-size-base - 1 !default;
+$megamenu-arrow-bg:                 darken($megamenu-sub-bg-color, 20%) !default;
+$megamenu-product-name-color:       $theme-color-secondary !default;
+$megamenu-text-align:               left !default;
+$megamenu-heading-letter:           3px !default;
+$megamenu-sub-caret-color:  		$megamenu-sub-text-color !default;
+$megamenu-name-hover-color:         #c2c2c2 !default;
+$megamenu-sub-link-hover-color:     $theme-color !default;
+$megamenu-link-font-family:         $font-family-base !default;
+$megamenu-link-hover-border:        $white !default;
+$megamenu-heading-title:            $font-custom !default;
+$megamenu-heading-color:            $black !default;
+$megamenu-line-border:  			1px solid #646464 !default;
+
+$megamenu-widget-title-font-size:         24px !default;
+$megamenu-widget-title-font-family:       $font-family !default;
+$megamenu-widget-title-color:			 #363636 !default;
+
+// Vertical Menu Module
+// ========================================================================
+$vertical-menu-font-family:         $font-family-tertiary !default;
+$vertical-menu-content-bg:          #fff!default;
+$vertical-menu-content-height:      500px !default;
+$vertical-menu-content-padding:     0 !default;
+$vertical-menu-content-margin:      0 !default;
+$vertical-menu-content-border:      $border-color !default;
+$vertical-menu-font-size:           14px !default;
+$vertical-menu-color:               #666 !default;
+$vertical-menu-font-weight:         400 !default;
+$vertical-menu-line-height:			16px !default;
+$vertical-menu-link-padding: 		17px 20px!default;
+$vertical-menu-link-hover-color:    $link-hover-color !default;
+$vertical-border-color:             $border-color !default;
+$vertical-description-font-family:	$font-family-base !default;
+$vertical-description-font-size:    12px !default;
+$vertical-description-font-style:   normal !default;
+$vertical-description-color: 	    #6f757c !default;
+$vertical-description-font-weight:  400 !default;
+$vertical-caret-border:             #f5f5f5 !default;
+$vertical-sub-menu-padding:         15px !default;
+$vertical-sub-menu-width:           215px !default;
+$vertical-sub-color:         		#6a6a6b !default;
+$vertical-sub-menu-link-color:      #6a6a6b !default;
+$vertical-sub-menu-font-family:		$font-family-base !default;
+$vertical-sub-menu-link-font-size:  13px  !default;
+$vertical-sub-menu-heading-color:   $black !default;
+$vertical-sub-menu-heading-font-size:   12px !default;
+$vertical-sub-menu-heading-font-family:   $font-family-tertiary !default;
+$vertical-sub-menu-bg:              	#fff !default;
+$vertical-sub-menu-link-hover-color:          $theme-color !default;
+$vertical-sub-shadow:  				0px 0px 5px 0px rgba(0, 0, 0, 0.35) !default;
+$vertical-sub-product-link:         $black !default;
+
+
+$vertical-widget-title-color:         	$black !default;
+$vertical-widget-title-font-size:       14px !default;
+$vertical-widget-title-font-family:     $font-family !default;

@@ -1,0 +1,14 @@
+//@import "compass";
+@import "theme_variables";
+
+
+#languages-block-top {
+	ul {
+		li {
+			img {
+				@include rtl-margin-right (5px);
+			}
+		}
+	}
+}
+

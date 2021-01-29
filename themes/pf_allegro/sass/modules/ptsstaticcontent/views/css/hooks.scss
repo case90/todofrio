@@ -1,0 +1,10 @@
+@import "compass";
+@import "theme_variables";
+/* Top hook CSS */
+.ps-service{
+	.service-inner {
+		border-bottom: 1px solid $base-border-color;
+		padding: 20px 0;
+	}
+}
+

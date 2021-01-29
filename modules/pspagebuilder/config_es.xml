@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pspagebuilder</name>
+	<displayName><![CDATA[Ps creador de p&aacute;gina]]></displayName>
+	<version><![CDATA[5.0.0]]></version>
+	<description><![CDATA[Lightweigh y flexiable al constructor de p&aacute;ginas gran casa que tiene el mejor aspecto.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,38 @@
+/**
+ * HEADER CSS STYLES
+ */
+ /* default */
+
+ .header1 {
+
+    #logo-theme.logo-theme a {
+        background-image: url('#{$image-theme-base-path}data/logo-home1.png');
+    }
+}
+.header2{
+
+    #logo-theme.logo-theme a {
+        background-image: url('#{$image-theme-base-path}data/logo-home2.png');
+    }
+}
+
+.header3 {
+ 
+    #logo-theme.logo-theme { 
+        a {
+            background-image: url('#{$image-theme-base-path}data/logo-home3.png');
+        }
+    }
+    #cart .mini-cart a:before {
+        background: url('#{$image-theme-base-path}data/cart-blue.png') center center no-repeat;
+    }
+}
+
+.header4 {
+ 
+    #logo-theme.logo-theme { 
+        a {
+            background-image: url('#{$image-theme-base-path}data/logo-home4.png');
+        }
+    }
+}

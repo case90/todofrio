@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PTS_VERTICAL_MEGAMENU_PARAMS>[{"submenu":"1","id":2,"subwidth":600,"cols":1,"align":"aligned-left","group":0,"rows":[{"cols":[{"colwidth":12,"widgets":"wid-1440661560"}]}]},{"submenu":"1","id":3,"cols":1,"align":"aligned-left","group":0,"rows":[{"cols":[{"colwidth":12,"widgets":"wid-1440662489"}]}]},{"submenu":"1","id":5,"subwidth":600,"cols":4,"align":"aligned-left","group":0,"rows":[{"cols":[{"colwidth":6,"widgets":"wid-1440661720"},{"colwidth":6,"widgets":"wid-1440661912"}]},{"cols":[{"colwidth":6,"widgets":"wid-1440662243"},{"colwidth":6,"widgets":"wid-1440662020"}]}]},{"submenu":"1","id":6,"subwidth":600,"cols":1,"align":"aligned-left","group":0,"rows":[{"cols":[{"colwidth":12,"widgets":"wid-1440662444"}]}]}]</PTS_VERTICAL_MEGAMENU_PARAMS>
+</config>
+<tables>
+<table>psverticalmenu</table>
+<table>psverticalmenu_lang</table>
+<table>psverticalmenu_shop</table>
+<table>psverticalmenu_widgets</table>
+</tables>
+
+<queries></queries>
+
+</module>

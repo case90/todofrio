@@ -1,0 +1,250 @@
+//@import "compass";
+@import "theme_variables";
+
+//list blog
+#blog-listing {
+  margin-bottom: 20px;
+  background: #fff;
+  h1 {
+    margin-top: 0;
+  }
+}
+.blogs-container {
+  h3 {
+      margin-bottom: 10px;
+  }
+  h4 {
+      margin-bottom: 15px;
+      line-height: 25px;
+      display: block;
+      overflow: hidden;
+  }
+}
+
+.blog-item {    
+  padding: $grid-gutter-width/2 0;
+  h4 {
+    a {
+      color: #000;
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+  .blog-shortinfo {
+    height: 75px;
+    display: block;
+    overflow: hidden;
+  } 
+  .blog-meta {
+    line-height: 18px;
+    color: #888;
+    font-family: $font-custom;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .readmore {
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 1px solid $base-border-color;
+  }
+}
+ 
+
+
+.blog-meta span {
+  @include rtl-margin-right(5px);
+}
+
+
+//leading-blog
+.leading-blog {
+
+}
+.secondary-blog {
+
+}
+.top-pagination-content {
+  border-top: 1px solid $base-border-color;
+  padding: 10px 15px;
+}
+/* blog */
+.blog-detail {
+  background-color: #fff;
+  .blog-title {
+    margin-bottom: 0; 
+    padding-bottom: 5px;
+    border-bottom: 0;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .blog-image {
+    margin-bottom: 15px;
+    @include rtl-float-left;
+    @include rtl-margin-right(15px);
+    border: 1px solid $base-border-color;
+  }
+  .blog-description {
+	 font-weight: bold;
+  }
+  .blog-meta{
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  .blog-content {
+     margin-bottom: 15px;
+  }
+}
+
+
+.blog-tags, .extra-blogs , .blog-comments, .social-share{
+  padding-bottom: 15px;
+}
+.blog-tags a span{
+   background: none repeat scroll 0 0 #666666;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size:  12px;
+    line-height: 1;
+    padding: 3px 7px;
+}
+
+.extra-blogs ul li {
+  padding: 6px 0 ;
+  border-bottom: dotted 1px #DDDDDD
+}
+
+.blog-video-code .inner{
+   background: #DDD;
+   padding: 12px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+/* comment */
+.comment-item{
+  padding: 12px 0;
+}
+.comment-item  img{
+    padding-right:12px;
+}
+.comment-wrap {
+    overflow:hidden;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    position: relative;
+    @include transition (all 0.3s ease-out 0s);
+}
+.comment-wrap {
+  .comment-meta {
+      border-bottom: 1px solid #E5E5E5;
+      font-size: 11px;
+      margin: -20px -20px 10px;
+      padding: 10px 20px;
+      > span { 
+        font-weight:bold;
+        span { 
+          font-weight:normal; 
+        }
+      }
+  }
+} 
+.blog-social { 
+  .social-wrap {
+    > div { 
+      @include rtl-float-left(); 
+    }
+  }
+  .social-heading { 
+    @include rtl-padding-right(12px); 
+  }
+}
+
+.comment-link {
+    background: none repeat scroll 0 0 #F4F4F4;
+    @include rtl-border-left(1px solid #E5E5E5);
+    display: block;
+    @include rtl-float-right();
+    font-weight: bold;
+    @include rtl-margin(-11px, -20px, -10px, 0);
+    padding: 10px 20px;
+}
+
+.ipts-captcha {
+  img {
+    @include rtl-padding-right(12px);
+    margin-bottom: 15px;
+    display: block;
+  }
+}
+/* categories menu display on left or right sidebar */
+
+.blog-menu {
+  .block_content {
+    > ul {
+      border-top: 1px solid #d6d4d4;
+    }
+  }
+  li {
+    position: relative;
+    a {
+      font-weight: bold;
+      color: #333333;
+      display: block;
+      font-size: 13px;
+      line-height: 30px;
+     @include rtl-padding(0, 30px, 0, 19px);
+      border-bottom: 1px solid #d6d4d4;
+      &.selected,
+      &:hover {
+        background: #f6f6f6;
+      }
+    }
+    span.grower {
+      display: block;
+      position: absolute;
+      @include rtl-right(0);
+      top: 5px;
+      cursor: pointer;
+      font-family: "FontAwesome";
+      font-size: 14px;
+      &.OPEN:before,
+      &.CLOSE:before {
+        content: "";
+        display: block;
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        color: #333333;
+        line-height: 30px;
+        text-align: center;
+      }
+      &.CLOSE:before {
+         content: "";
+        color: #c0c0c0;
+      }
+      &:hover + a {
+        background: #f6f6f6;
+      }
+    }
+    li {
+      a {
+        font-weight: normal;
+        color: #777777;
+        &:before {
+          content: "";
+          font-family: "FontAwesome";
+          line-height: 29px;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}
+ 
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>promotionalsliderproducts</name>
+	<displayName><![CDATA[Slider de productos en promocion]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Despliega en un slider todos los productos que se encuentran con alg&uacute;n tipo de promoci&oacute;n]]></description>
+	<author><![CDATA[Axus Technologies]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<confirmUninstall><![CDATA[Está seguro que desea des instalar este módulo]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

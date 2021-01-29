@@ -1,0 +1,454 @@
+/******************************************************
+ * $package Pav Prestashop Theme Framework for Prestashop 1.5.x
+ * $version 1.1
+ * $author http://www.prestabrain.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:prestabrain$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+body{
+    &.layout-boxed-md{
+        background: #fff;
+        #page{ 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+            max-width: $container-desktop + $grid-gutter-width;
+            .container{
+               max-width: $container-desktop + $grid-gutter-width;
+            }
+        } 
+    }
+    &.layout-boxed-lg{
+        #page{ 
+            margin: 0 auto;    
+            background: $white;
+            max-width: $container-large-desktop + $grid-gutter-width;
+        }
+    }
+    &.search, &.category, &.product, &.index, &.best-sales, &.prices-drop, &.new-products, &.sitemap{
+        #page{
+            background: #f5f5f5;
+        }
+    }
+} 
+
+#header{
+    .container {
+        position: relative;
+        .row {
+            > div {
+                &:last-child{
+                    position: static !important;
+                }
+            }
+        }
+    }
+}
+/*
+* HEADER 
+*/
+/*** Position Topbar***/
+#topbar {
+    padding: $topbar-padding;   
+    font-weight: $topbar-font-weight; 
+    font-size: $topbar-font-size;
+    font-family: $topbar-font-family;
+    line-height: 30px;
+}
+.topbar  {
+    .block {
+        margin-bottom: 0;
+    }
+    .list-inline{ 
+        margin-bottom: 0;    
+    } 
+  
+    .btn-group {
+        @include button-size(0, 0, $topbar-font-size, inherit, 0);
+        cursor: pointer;
+
+    } 
+    .content_top {
+        margin-bottom: 0;
+        li {
+            padding: 0 10px;
+            position: relative;
+            @media (min-width: $screen-sm-max) {
+                line-height: 10px;
+            }
+            a {
+                text-transform: uppercase;
+                .icon {
+                    color: #999;
+                }
+                &:hover {
+                    .icon {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+
+    }  
+}
+.toogle_content {
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    @include rtl-left(0);
+    min-width: 130px;
+    z-index: 115;
+    display: none;
+    padding: 5px 10px;
+    @media(max-width: $screen-xs-max) {
+        @include rtl-margin-right(-50px);
+    }
+    a {
+        color: #292733;
+    }
+    #header_user {
+        li{
+            display: block;
+        }
+    }
+    li {
+        display: inline-block;
+        &.selected {
+            a, span {
+                color: $theme-color;
+            }
+        }
+        a {
+            &:hover, &:focus, &:active {
+                color: $theme-color;
+            }
+        }
+    }
+    &.currencies_ul {
+        right: auto;
+        @include rtl-left(0);
+    }
+}
+
+#header-main{
+    color: $header-text-color;   
+    padding: $header-padding;
+    .container {   
+      //position: relative;
+      //z-index: 110;
+      .group-title{
+        position: relative;
+        z-index: 1000;
+        font-size: 24px;
+        width: 40px;
+        margin-top: 5px;
+        @media (max-width:$screen-xs-max){
+            top: 10px;
+        }
+      }
+    }
+    .inner{ 
+    } 
+
+    @media (max-width: $screen-sm-max) {  
+        .container{
+            position: relative;
+        }
+    }
+}
+
+.header-right {
+    position: static;
+}
+#header_logo {
+    position: relative;
+    z-index: 98;
+    text-align: center;
+}
+#logo-theme {
+    &.logo-theme {
+        background: none;
+        @media (max-width: $screen-xs-max) {
+            margin-bottom: 15px;
+        }
+        a {
+            @include size($header-logo-width,$header-logo-height);
+            background-image: url('#{$image-theme-base-path}logo.png');
+            background-repeat: no-repeat;
+            display: block;
+            @media (max-width: $screen-sm-max){
+                background-position: center center;
+                margin-bottom: 10px !important;
+                margin: 0 auto;
+            }
+        }
+    }
+    @media (max-width: $screen-sm-max) {
+        &.logo-store {
+            text-align: center;
+            display: block;
+            a {
+                display: inline-block;
+            }
+
+        }
+    }
+}
+
+/*
+* NAVIGATION
+*/
+##{$app-brand-prefix}-mainnav {
+    color: $mainnav-color;
+    .block {
+        margin-bottom: 0;
+    }
+}
+/*
+* SLIDESHOW 
+*/
+##{$app-brand-prefix}-slideshow {
+    padding-bottom:  30px;
+    
+}
+/*Breadcrumb*/ 
+
+#breadcrumb {
+}
+/*
+* SHOWCASE 
+*/
+##{$app-brand-prefix}-showcase {
+
+}
+/*
+* MAIN CONTENT
+*/  
+#center {
+    padding-bottom: 20px;
+}
+.main-content {
+}
+
+.sidebar {
+    overflow: hidden;
+    .block-borderbox {
+        .title_block{
+            text-align: left;
+            margin-bottom: 10px;
+            > span {
+                font-size: 36px;
+                background: none;
+                color: $base-heading-color;
+            }
+        }    
+    }
+    .list {
+        > li {
+            margin: 10px 0;
+            @include rtl-float-left;
+            width: 100%;
+        }
+        .name {
+            margin: 5px 0;
+            a {
+                height: auto;
+            }
+        }
+        .product-block {
+            .nb-comments {
+                display: none;
+            }
+            .price {
+                font-size: 14px;
+            }
+        }
+    }
+}
+/*top column*/
+#top_column {
+  margin-bottom: 20px;
+}
+/*boottom*/
+
+.bottom {
+    background-color: $bottom-bg;
+    padding-top: $bottom-padding;
+    padding-bottom: $bottom-padding;
+    .row-inner > .row > div {
+        padding: 15px 10px;
+        @media(min-width: $screen-sm) {
+            @include rtl-border-left(1px solid $base-border-color);
+            padding: 40px 30px 10px;
+            &:first-child {
+                @include rtl-border-left(0);
+            }
+        }
+    }
+}
+/*end*/
+
+
+/* FOOTER */
+#footer{
+    @include clearfix();
+    background: $footer-bg;    
+    min-height: $line-height-computed * 5;
+    color: $footer-color;
+    font-size: $footer-font-size;
+    position:relative;
+}
+.no-margin-botton .block{ margin-bottom: 0;}
+.footer-top{
+    @include container-layout-variant($footer-top-color, $footer-top-outside-bg, $footer-top-color, $footer-top-color-hover ); 
+     padding: $footer-top-content-padding;
+     .row-inner {
+        background-color: $footer-top-bg;
+     }
+      .title_block {
+        color: #fff;
+        font-size: 14px;
+    }
+}
+
+.footer-center{
+     .row-level-1 > .row > div{
+        @media (min-width:$screen-lg){
+            &:before{
+                content: "";
+                position: absolute;
+                width: 1px;
+                background: rgba(218, 218, 218,0.1);
+                height: 300px;
+                @include rtl-right(15px);
+            }
+            &:last-child:before{
+                display: none;
+            }
+        }
+     }
+    position:relative;
+    font-weight: 300;
+    @include container-layout-variant($footer-center-color, $footer-center-outside-bg, $footer-center-color, lighten($footer-center-color,5%) ); 
+    padding: $footer-center-content-padding;
+    .#{$block-selector}{
+         @include block-variant-footer(transparent,$footer-heading-text-color,transparent,$white);
+         background-color: transparent;
+         
+    }
+    a {
+        color: $footer-link-color;
+        &:hover{
+            color: $footer-link-hover-color;
+        }
+    }
+    .pts-inner > .row-inner {
+        background: $footer-center-bg;
+    }
+    .nav-links > li{
+        margin-bottom: 10px;
+    }
+    .lists li {
+        margin-bottom: 0;
+        a {
+            display: block;
+            color: #666;
+            &:hover {
+                color: $footer-link-hover-color;
+            }
+        }
+    } 
+    .block-borderbox {
+        border: 0;
+        .widget-banner-desc {
+            padding: 25px 0 0;
+        }
+    }
+    .widget-ourservice {
+        .media-body{
+            margin-top: 25px;
+            display: block;
+        }
+    }
+    .widget-html {
+        p {
+            line-height: 1px;
+            span{
+                display: inline-block;
+                min-width: 42px;
+            }
+            i {
+                width: 26px;
+                height: 26px;
+                line-height: 26px;
+                text-align: center;
+                border-radius: 50%;
+                border: 1px solid $footer-link-color;
+                @include rtl-margin-right(15px);
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}   
+.footer-bottom{
+    position:relative;  
+    @include container-layout-variant($footer-bottom-color, $footer-bottom-outside-bg, $footer-bottom-color, $footer-center-color-hover );   
+        padding: $footer-bottom-content-padding;
+        
+    a,
+    .lists li a {
+        color: $footer-link-color;
+        &:hover{
+            color: $footer-link-hover-color;
+        }
+    }  
+    @media(max-width: $screen-sm-max) {
+        .row-inner {
+            .col-sm-6:nth-child(2n+1) {
+                clear: both;
+            }
+        }
+    }
+    @media(min-width: $screen-sm-max) {
+        .feature-box.feature-box-left {
+            padding: 0 30px;
+        }
+    }
+}      
+
+/* POWER BY */
+.pts-copyright  { 
+    font-size: 15px;
+    font-family: $power-font-family;
+    position: relative;
+    padding: $power-padding;
+    @include container-layout-variant($power-color, $power-outside-bg, $power-link-color, lighten($footer-bottom-color,5%) );
+    .copyright {
+        line-height: 28px;
+        text-align: center;
+        >span {
+            display: inline-block;
+        }
+         a {
+           color: $power-link-color;
+        }
+    }
+    p {
+        margin-bottom: 0;
+    }
+    .powered a {color: #000;&:hover {color: $theme-color;}}
+    @media(min-width: $screen-sm-max) {
+    }
+}
+
+.gmnoprint img {
+    max-width: initial;
+}
+.map {
+    padding: 10px 0;
+}
+.block-content{
+    position: relative;
+}

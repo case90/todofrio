@@ -1,0 +1,80 @@
+
+	@import "theme_variables";
+	@import "vars/home4";
+
+    #index .grid .categories_info_container .categories_info_content{
+    	top: 80%;
+    }
+	#index .header2 {
+		.ps-service {
+			margin-bottom: 0;
+		}
+		.ps-service .service-inner {
+			border-bottom: 0;
+		}
+	}
+	.widget-manufacture.block {
+		margin-bottom: 0;
+	}
+	.img_full_width img{
+		width: 100%;
+	}
+#index{
+	.no-margin-row{
+		.row{
+			margin: 0;
+		}
+	}
+	.header4 {
+		@media(min-width: $screen-lg){
+		    max-width: 1290px;
+		    margin: 0 auto;
+		}    
+	}
+	.nopadding .row-inner{
+		background: #fff;
+	}
+
+}
+#columns {
+	.ps-ourservice{
+	padding: 10px 20px;
+	}	
+	.service-special .ps-ourservice {
+	background: #363636;
+	}
+}
+.widget-testimonial{
+  padding: 70px 60px;
+  @media (max-width: $screen-md-max){
+    padding: 30px;
+  }
+  @media (max-width: $screen-xs-max){
+    padding: 30px 0 10px;
+    .title_block{
+    	line-height: 1;
+    }
+  }
+  .carousel-controls{
+  	display: none;
+  }
+  .testimonials-body {
+    .testimonials-quote {
+      font-size: 16px;
+      color: #363636;
+      font-style: italic;
+      i{
+      	color: #e1e1e1;
+      }
+    }
+    .testimonials-profile {
+    	padding: 15px !important;
+      > div {
+        .job{
+          color: #999999;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}	

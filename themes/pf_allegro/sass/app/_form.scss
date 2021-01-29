@@ -1,0 +1,96 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+.btn.button-plus,
+.btn.button-minus {
+  font-size: 14px;
+  line-height: 14px;
+  color: $button-pm-color;
+  padding: 0;
+  border: 1px solid $base-border-color;
+  background-color: transparent;
+  @include border-radius(0);
+}
+
+.btn {
+  text-transform: uppercase;
+  i.left {
+    @include rtl-margin-right(3px);
+  }
+  i.right{
+    @include rtl-margin-left(3px);
+  }
+}
+
+.form-group {
+  .form-control {
+    padding: 3px 5px;
+  }
+}
+.btn-default {
+  border-width: 1px;
+  font-family: $font-family;
+  font-size: 12px;
+  font-weight: 900;
+  &:hover, 
+  &:focus, 
+  &.focus, 
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    color: #fff;
+    background: $theme-color;
+    border-color: $theme-color;
+  }
+}
+.btn-newsletter {
+  @include rtl-border-radius-bottomright (25px );
+  @include rtl-border-radius-topright (25px );
+  height: 46px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: $theme-color;
+  border-color: $theme-color;
+  padding: 10px 20px;
+  font-weight: bold;
+  line-height: 10px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+  }
+}
+.btn-slider{
+  font-weight: 500;
+  color: #000000;
+  padding: 10px 22px;
+  
+  border-radius: 25px;
+  background-color: $theme-color;
+  .header-default + div &{
+    border-color: #000;
+  }  
+  &:hover{
+      color: #fff;
+      border-color: #fff;
+  }
+  
+}
+select {
+  @include rtl-background-position-right(center);
+  @include rtl-padding(0,25px,0,10px);
+  border: 1px solid $base-border-color;
+  background-image: url(../img/data/arrow-bg.png)!important;
+  background-repeat: no-repeat!important;
+     -webkit-appearance: none;  /*Removes default chrome and safari style*/
+     -moz-appearance: none;  /*Removes default style Firefox*/
+     position: relative;
+
+}

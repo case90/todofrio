@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ptsstaticcontent</name>
+	<displayName><![CDATA[Pts gesti&oacute;n de contenido est&aacute;tico]]></displayName>
+	<version><![CDATA[2.1.0]]></version>
+	<description><![CDATA[Administrar contenido est&aacute;tico, Banderas Siguiendo posiciones no soportados por Leo Framework 3.0]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

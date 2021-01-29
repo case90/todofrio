@@ -1,0 +1,22 @@
+//@import "compass";
+@import "theme_variables";
+#header_user_info {
+	@include rtl-padding-right(10px);
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+.header_user_info {
+	 ul li {
+	 	 line-height: 24px;
+	 	 font-size: $topbar-font-size;
+	 	 i {
+	 	 	@include rtl-margin-right(6px);
+	 	 }
+	 	 a:hover{
+	 	 	font-weight: bold;
+	 	 }
+	 }
+}

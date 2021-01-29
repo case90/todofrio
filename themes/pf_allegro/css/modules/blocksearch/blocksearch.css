@@ -1,0 +1,74 @@
+/* $gray-lighter:        lighten($gray-base, 93.5%) !default; // #eee */
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/* RIGHT TO LEFT */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND RADIAL */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* flex */
+/* DOUBLE BORDERS */
+/* TRIPLE BORDERS */
+/* FONT FACE */
+/* OPACITY */
+/* TEXT SHADOW */
+/**
+* Transition-timing-function property@mixin 
+*/
+/*background RGBA
+============================================*/
+/****/
+/**parallax**/
+/**absolute**/
+/*  
+ * LAYOUT VARIABLES 
+ */
+/** CHECKOUT BY STEP */
+#search_block_top .button-search {
+  display: block;
+  width: 50px;
+  height: 42px;
+  text-align: center;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  font-size: 12px;
+}
+@media (max-width: 767px) {
+  #search_block_top #search_block_top {
+    top: 150%;
+  }
+}
+
+#search_query_top {
+  border: 0 none;
+  height: 42px;
+}
+
+.ac_results {
+  background: #FFFFFF;
+  border: 1px solid #e1e1e1;
+  width: 271px;
+  margin-top: -1px;
+}
+.ac_results li {
+  padding: 0 10px;
+  font-weight: normal;
+  color: #686666;
+  font-size: 13px;
+  line-height: 22px;
+}
+.ac_results li.ac_odd {
+  background: #FFFFFF;
+}
+.ac_results li:hover, .ac_results li.ac_over {
+  background: #fbfbfb;
+}

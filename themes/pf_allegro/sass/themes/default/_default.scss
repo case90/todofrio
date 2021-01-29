@@ -1,0 +1,24 @@
+@import "theme_variables";
+#index .header1 {
+	.ps-service {
+		margin-bottom: 0;
+	}
+	.ps-service .service-inner {
+		border-bottom: 0;
+	}
+}
+.categories {
+	h1.page-heading {display: none;}
+}
+@media (min-width: $screen-sm) {
+	.header2 { 
+		#pts-mainnav .inner {
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+		}
+	}
+	#index .header2 { 
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,57 @@
+/**
+* 2007-2018 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2018 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+.icon_payment img{width: 64px; height: 64px;}
+.infoDeposit{margin-bottom: 25px;}
+.oxxodeposit_oxxologo img{max-width: 90%;}
+#oxxodepositDetail .button{margin-bottom: 70px;}
+#detailTable thead th{font-weight: bold;}
+.oxxo_confirmationOrder .oxxodepositFooter{margin-bottom: 75px;}
+.nopadding{padding: 0px;}
+.wrapperPaymentInfo{line-height: 30px;height: 620px;margin-bottom: 75px;padding: 0;box-shadow: 0px 3px 9px;border-radius: 10px;}
+.wrapperPaymentInfo .col-01, .wrapperPaymentInfo .col-02{padding:35px;height: 100%;}
+.wrapperPaymentInfo .col-01{color: #ffffff;border-radius: 10px 0px 0px 10px;background: #e21c2a;}
+.wrapperPaymentInfo .col-02{color: #5f5f5f;border-radius: 0px 10px 10px 0px;background: #f7f7f7;}
+.wrapperPaymentInfo h1, 
+.wrapperPaymentInfo h2, 
+.wrapperPaymentInfo h3, 
+.wrapperPaymentInfo h4, 
+.wrapperPaymentInfo h5, 
+.wrapperPaymentInfo h6{
+	color: #5f5f5f;
+} 
+.col_02_footer_info{text-align: justify;}
+.col_01_head{border-bottom: 1px solid #f75964; padding-bottom: 18px;}
+.col_02_head{padding-bottom: 18px;}
+.col_02_body{height: 60%;border-bottom: 1px solid #dadada;margin-bottom: 20px;}
+.col_01_body_row{padding-top: 25px;padding-bottom: 25px; border-bottom: 1px solid #f75964;}
+.weight_bold{font-weight: bold;}
+.axsTitle01{}
+.axsTitle02{}
+.axsTitle03{font-size: 28px;}
+.axsTitle04{font-size: 20px;}
+.axsTitle05{}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pssliderlayer</name>
+	<displayName><![CDATA[Capa ps deslizante para su p&aacute;gina web.]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[A&ntilde;ade imagen o cursor de texto a su p&aacute;gina de inicio.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

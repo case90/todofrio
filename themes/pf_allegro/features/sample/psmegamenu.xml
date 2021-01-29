@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PS_MEGAMENU_PARAMS>[{"align":"aligned-left","submenu":1,"cols":1,"group":0,"id":2,"rows":[{"cols":[{"widgets":"wid-1440664925","colwidth":12}]}]},{"align":"aligned-left","submenu":1,"subwidth":750,"cols":1,"group":0,"id":3,"rows":[{"cols":[{"widgets":"wid-1440663108","colwidth":4},{"widgets":"wid-1444836628","colwidth":4},{"widgets":"wid-1444836660","colwidth":4}]}]},{"submenu":1,"subwidth":700,"id":4,"align":"aligned-fullwidth","cols":1,"group":0,"rows":[{"cols":[{"widgets":"wid-1440666426","colwidth":4},{"widgets":"wid-1440663181","colwidth":4},{"widgets":"wid-1440663763","colwidth":4}]}]},{"align":"aligned-left","submenu":1,"cols":1,"group":0,"id":5,"rows":[{"cols":[{"colwidth":12,"type":"menu"}]}]},{"align":"aligned-left","submenu":1,"cols":1,"group":0,"id":7,"rows":[{"cols":[{"colwidth":12,"type":"menu"}]}]},{"align":"aligned-left","submenu":1,"cols":1,"group":0,"id":13,"rows":[{"cols":[{"colwidth":12,"type":"menu"}]}]}]</PS_MEGAMENU_PARAMS>
+</config>
+<tables>
+<table>psmegamenu</table>
+<table>psmegamenu_lang</table>
+<table>psmegamenu_shop</table>
+<table>psmegamenu_widgets</table>
+</tables>
+
+<queries></queries>
+
+</module>

@@ -1,0 +1,123 @@
+//@import "compass";
+@import "theme_variables";
+
+/*******************************************************************
+          ptsbttestimonials
+********************************************************************/
+
+.ptsbttestimonials {
+	position: relative;
+	padding: 0 50px;
+	margin-top: -135px;
+	margin-bottom: 35px;
+	.block_content {
+	}
+	.testimonial-item {
+		 margin: 35px 50px;
+	}
+	.testimonial-body {
+		 padding: 15px 50px;
+		 background-color: #fff;
+	}
+	.test-info{
+		font-size: $font-size-base;
+		clear: both;
+	}
+	.media {
+		position: relative;
+	}
+	.t-avatar{
+		clear: both;
+		display: inline-block;
+		position: relative;
+		padding: 0;
+		overflow: hidden;
+		@include border-radius(50%);
+		z-index: 10;
+		position: absolute;
+		@include rtl-left(-30px);
+		top: 50%;
+		margin-top: -30px;
+			
+		&:hover {
+		    .icon {
+		        @include scale(1);
+		        opacity: 1;
+		    }
+		}
+		.icon {
+			position: absolute;
+			@include border-radius(50%);
+			@include size(30px, 30px);
+			line-height: 28px;
+			padding: 0;
+			text-align: center;
+			@include rtl-left(50%);
+			@include rtl-margin-left(-15px);
+			top: 50%;
+			margin-top: -15px;
+			opacity: 0;
+			@include scale(0);
+			@include transition(all 0.4s ease 0s);
+		}
+	}
+
+	.t-profile{
+		overflow: hidden;
+		.name{	
+			color: $theme-color;
+			text-transform: uppercase;
+			font-weight: 400;
+			&:hover,&:focus{
+				text-decoration: underline;
+			}
+		}
+		.job{
+			font-family: Georgia;
+			margin-bottom:  10px;
+		}
+	}
+	.carousel-control {
+		@include opacity(1);
+        &.left {
+            @include rtl-left(0);
+        }    
+        &.right {
+            @include rtl-right(0);
+        }
+        &:hover,&:focus {          
+            background-color: #fff;
+			color: #000;
+			border-color: #fff;
+        }
+	}
+	.carousel-linked-nav {
+		height: 15px;
+		min-height: 15px;
+		line-height: 15px;
+		@include rtl-padding-left(120px);
+		> li {
+			margin: 0;
+			&.active a {
+				background-color: $theme-color;
+				border-color: transparent;
+			}
+			> a {
+				background: #cecece;
+				text-indent: -9999px;
+				display: block;
+				@include size(10px, 10px);
+				min-width: 10px;
+				margin: 0 3px;
+				padding: 0;
+				outline: 0;
+				@include border-radius(5px);
+				&:hover {
+					background-color: $theme-color;
+				    border-color: transparent;
+				}
+			}
+		}
+	}
+}	
+

@@ -1,0 +1,41 @@
+@import "compass";
+@import "theme_variables";
+#my-account {
+	.info-account {
+		margin-bottom: 20px;
+	}
+	.addresses-lists {
+		margin-bottom: 30px;	
+	}
+	ul.myaccount-link-list {
+		li {
+			overflow: hidden;
+			padding-bottom: 10px;
+			a {
+				display: block;
+				overflow: hidden;
+				text-transform: uppercase;
+				text-decoration: none;
+				position: relative;
+				border: 1px solid $base-border-color;
+				i {
+					font-size: 15px;
+					position: absolute;
+					@include rtl-left(0);
+					top: 0;
+					width: 45px;
+					height: 100%;
+					padding: 14px 0 0 0;
+					text-align: center;
+					@include rtl-border-right(1px solid $base-border-color);
+				}
+				span {
+					display: block;
+					@include rtl-padding(8px, 15px, 10px, 17px);
+					overflow: hidden;
+					@include rtl-margin-left(45px);
+				}
+			}
+		}
+	}
+}

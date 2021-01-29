@@ -1,0 +1,20 @@
+/******************************************************
+ * $package Pav Prestashop Theme Framework for Prestashop 1.5.x
+ * $version 1.1
+ * $author http://www.prestabrain.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:prestabrain$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+
+ #page{ 
+    margin: 0 auto;    
+    background: $white;
+}
+#logo-theme.logo-theme a {
+    background-image: url("../img/data/logo.png");
+}
+.header1{
+	#pts-mainnav{
+		border-bottom: 1px solid #eaeaea;
+	}
+}

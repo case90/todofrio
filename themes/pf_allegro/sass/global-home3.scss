@@ -1,0 +1,30 @@
+// Make sure the charset is set appropriately
+	 @charset "UTF-8";
+
+	@import "compass";
+	@import "themes/vars/home3";
+	@import "theme_variables";
+	@import "vars/bootstrap";
+	@import "bootstrap";
+	@import "font-awesome";
+
+	@import "app/base";
+	@import "app/block";
+	@import "app/layout";
+	@import "app/product";
+	@import "app/menu";
+	@import "app/form";
+	@import "app/modules";
+	@import "app/animation";
+	@import "app/elements";
+	@import "app/header";
+
+	@import "typo";
+	@import "prestashop-module";
+	@import "prestashop-pages";
+
+	//skin home3
+
+ 	@import "themes/home3/layout";
+ 	@import "themes/home3/header";
+	

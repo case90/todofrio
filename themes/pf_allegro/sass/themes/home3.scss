@@ -1,0 +1,42 @@
+
+	@import "theme_variables";
+	@import "vars/home3";
+
+#index {
+	.header1 {
+		.ps-service {
+			margin-bottom: 0;
+		}
+		.ps-service .service-inner {
+			border-bottom: 0;
+		}
+	}
+	.header4 {
+		@media(min-width: $screen-lg){
+		    max-width: 1290px;
+		    margin: 0 auto;
+		}    
+	}
+	.widget-manufacture.block {
+		margin-bottom: 0;
+	}
+	.img_full_width img{
+		width: 100%;
+	}
+}
+#pts_search_query_top, #category_filter{
+	border-color: $header-border-search;
+}
+#header-main{
+	border-bottom: 1px solid $header-border-search;
+}
+#cart > .price{
+	color: #363636;
+}
+#cart .mini-cart a span{
+	position: relative;
+	background: #363636;
+}
+.widget-newsletter .newsletter-input{
+	background: #fff !important;
+}

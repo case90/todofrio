@@ -1,0 +1,28 @@
+
+	@import "theme_variables";
+	@import "vars/home1";
+
+    #index .grid .categories_info_container .categories_info_content{
+    	top: 80%;
+    }
+	#index .header1 {
+		.ps-service {
+			margin-bottom: 0;
+		}
+		.ps-service .service-inner {
+			border-bottom: 0;
+		}
+	}
+	
+	.widget-manufacture.block {
+		margin-bottom: 0;
+	}
+	.img_full_width img{
+		width: 100%;
+	}
+	#index .header4 {
+		@media(min-width: $screen-lg){
+		    max-width: 1290px;
+		    margin: 0 auto;
+		}    
+	}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>pspagebuilder</name>
+	<displayName><![CDATA[Ps Page Builder]]></displayName>
+	<version><![CDATA[5.0.0]]></version>
+	<description><![CDATA[Lightweigh and flexiable to builder great home page having the best look.]]></description>
+	<author><![CDATA[PrestaBrain]]></author>
+	<tab><![CDATA[pricing_promotion]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

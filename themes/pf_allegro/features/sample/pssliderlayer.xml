@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PSSLIDERLAYER_GROUP_DE>8</PSSLIDERLAYER_GROUP_DE>
+</config>
+<tables>
+<table>pssliderlayer_groups</table>
+<table>pssliderlayer_slides</table>
+<table>pssliderlayer_slides_lang</table>
+</tables>
+
+<queries></queries>
+
+</module>

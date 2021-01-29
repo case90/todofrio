@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>oxxodeposit</name>
+	<displayName><![CDATA[Oxxo Deposit]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Permite hacer deposito en establecimientos como oxxo y seven]]></description>
+	<author><![CDATA[Alex Segura]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

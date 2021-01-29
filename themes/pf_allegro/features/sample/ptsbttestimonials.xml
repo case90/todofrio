@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module><config>
+<PTS_TEST_LIMIT>5</PTS_TEST_LIMIT>
+<PTS_TEST_WIDTH>450</PTS_TEST_WIDTH>
+<PTS_TEST_HEIGHT>450</PTS_TEST_HEIGHT>
+<PTS_TEST_MEDIA_WIDTH>60</PTS_TEST_MEDIA_WIDTH>
+<PTS_TEST_MEDIA_HEIGHT>60</PTS_TEST_MEDIA_HEIGHT>
+<PTS_TEST_SPEED>3000</PTS_TEST_SPEED>
+</config>
+<tables>
+<table>ptsbttestimonials</table>
+<table>ptsbttestimonials_lang</table>
+<table>ptsbttestimonials_shop</table>
+</tables>
+
+<queries></queries>
+
+</module>

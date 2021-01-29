@@ -1,0 +1,75 @@
+ 
+/* block */
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    .#{$block-heading-selector}{
+        position: relative;   
+        background:$block-module-heading-bg;                 
+        color: $block-module-heading-color;                                            
+        text-transform: $block-module-heading-transform;
+        font-size: $block-module-heading-font-size;
+        letter-spacing: $block-heading-letter-spacing;
+        padding: $block-module-heading-padding;
+        font-weight:$block-module-heading-font-weight;
+        margin:0;
+    }
+    .#{$block-content-selector} {
+        @include clearfix();
+    }
+    .box-content {
+        border: 1px solid transparent;
+    }
+}
+.#{$block-selector}-borderbox {
+    @include block-variant($theme-color, #333333, transparent, $theme-color);
+}
+
+
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, #000, transparent, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, #000, transparent, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, #000, transparent, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, #000, transparent, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, #000, transparent, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, #000, transparent,  $panel-danger-border);
+}
+.#{$block-prefix}-highlighted {
+    .title_block {
+        background-color: $theme-color;
+        color: #000;
+        position: relative;
+        padding: 15px 25px;
+        &:after {
+            content: "\f0c9";
+            font-family: $font-icon;
+            position: absolute;
+            right: 20px;
+            top: 15px;
+        } 
+    }
+    .block_content {
+        border: 2px solid $theme-color;
+    }
+}
+
+
+.title_large { 
+    .title_block > span {
+    font-size: 24px;
+    line-height: 20px;
+    }
+    .owl-carousel-play.boxcarousel > .carousel-controls {
+        margin-top: -44px;
+    }
+}
