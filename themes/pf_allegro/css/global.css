@@ -19460,7 +19460,30 @@ div.star.star_hover:after {
   z-index: 111;
   bottom: 20px;
   font-size: 20px;
+  left:25px;
 }
 .whats_link a{
   color: #ffffff;
+}
+.ecommerce_button_container{
+  width: 190px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 111;
+  bottom: 20px;
+  font-size: 20px;
+  left: 50%;
+  right: 50%;
+}
+.ecommerce_button_container a{
+  position: absolute;
+  left: -70%;
+  background: #16318f;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
 }
